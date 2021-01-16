@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Hayata Tutunduran Sözler</string>
+    <string name="ba_la">Başla</string>
+    <string name="uygulamay_payla">Uygulamayı Paylaş</string>
+
+    <string name="bizi_desteklemek_in_buraya_t_klayarak_video_reklam_zleyebilirisiniz">Bizi Desteklemek İçin Buraya Tıklayarak Video Reklam İzleyebilirisiniz</string>
+    <string name="hayata_tutunduran_s_zler">Hayata Tutunduran sözler</string>
+    <string name="uygulama_hakk_nda">Uygulama Hakkında</string>
+    <string name="bu_uygulamada_bizleri_hayata_tutunduran_s_zler_bulunmaktad_r_bu_s_zlerde_sab_r_k_r_ba_ar_mit_ile_lgili_yani_bizleri_sosyolojik_ve_psiklolojik_olarak_olumlu_etkileyecek_s_zler_bulunmaktad_r_faydal_olmas_dile_i_ile">Bu uygulamada Bizleri Hayata Tutunduran Sözler Bulunmaktadır. Bu sözlerde sabır, şükür, başarı, ümit ile İlgili yani bizleri sosyolojik ve psiklolojik olarak olumlu etkileyecek sözler bulunmaktadır. Faydalı olması dileği ile.....</string>
+    <string name="buraya_t_klayarak_reklam_izleyerek_bize_destek_olabilirsiniz">Buraya tıklayarak reklam izleyerek bize destek olabilirsiniz</string>
+</resources>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/duvar"
+    tools:context=".Main2Activity">
+
+    <TextView
+
+        android:id="@+id/degisenYazi"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@android:color/transparent"
+        android:gravity="center"
+        android:text="Ayağın taşa takıldığında ‘Allah kahretsin’ bile deme, dua et ki taşa takılan bir ayağın var.\n-Necip Fazıl Kısakürek-"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/geriButonu"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_below="@+id/degisenYazi"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/geributtonu11"
+        app:layout_constraintEnd_toStartOf="@+id/rastgeleDegistirenButon"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/degisenYazi" />
+
+    <Button
+        android:id="@+id/rastgeleDegistirenButon"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_below="@+id/degisenYazi"
+        android:layout_toEndOf="@+id/geriButonu"
+        android:layout_toRightOf="@+id/geriButonu"
+        android:background="@drawable/dondurme"
+        app:layout_constraintEnd_toStartOf="@+id/ileriButonu"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/geriButonu"
+        app:layout_constraintTop_toTopOf="@+id/geriButonu" />
+
+    <Button
+        android:id="@+id/ileriButonu"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_below="@+id/degisenYazi"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/ileributtonu11"
+        app:layout_constraintEnd_toStartOf="@+id/paylasButonu"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/rastgeleDegistirenButon"
+        app:layout_constraintTop_toTopOf="@+id/rastgeleDegistirenButon" />
+
+    <Button
+        android:id="@+id/paylasButonu"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_below="@+id/degisenYazi"
+        android:layout_toEndOf="@+id/ileriButonu"
+        android:layout_toRightOf="@+id/ileriButonu"
+        android:background="@drawable/paylasbutonu4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/ileriButonu"
+        app:layout_constraintTop_toTopOf="@+id/ileriButonu" />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/banner"
+        android:layout_width="320dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+
+        app:adSize="LARGE_BANNER"
+        app:adUnitId="ca-app-pub-5714708973241718/5933472820"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"></com.google.android.gms.ads.AdView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
